@@ -301,13 +301,24 @@ p {
 	position: relative;
 }
 
-.main_menu .menu ul li+li {
-	margin-left: 24px;
-}
-
 .main_menu .menu ul li a {
 	color: var(--black);
-	line-height: 55px;
+	line-height: 40px;
+	font-weight: 500;
+	background: transparent;
+	padding: 0 15px;
+	border-radius: 5px;
+	transition: var(--transision);
+}
+
+.main_menu .menu ul li a:hover {
+	color: var(--white) !important;
+	background: var(--gradient);
+}
+
+.main_menu .menu ul li.active a {
+	color: var(--white) !important;
+	background: var(--gradient);
 }
 
 .main_menu .menu ul li a .home i {
