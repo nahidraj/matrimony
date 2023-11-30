@@ -159,7 +159,7 @@ p {
 	background-size: cover;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation-duration: 6s;
+	animation-duration: 14s;
 	animation-name: animationgradienttitle;
 	animation-iteration-count: infinite;
 	animation-fill-mode: forwards;
