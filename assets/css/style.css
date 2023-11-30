@@ -162,16 +162,17 @@ p {
 	display: inline-block;
 }
 
-.section_title .image img{
+.section_title .image img {
 	animation: anim2 2s infinite alternate;
 }
 
 @keyframes anim2 {
-	0%{
+	0% {
 		transform: rotate(20deg);
 		transform-origin: top;
 	}
-	100%{
+
+	100% {
 		transform: rotate(0deg);
 		transform-origin: top;
 	}
@@ -250,11 +251,22 @@ p {
 	margin-left: 30px;
 }
 
-.top_header .short_info p {
+.top_header .short_info .contact_info {
 	line-height: 40px;
 	font-weight: 600;
 	color: var(--white);
 }
+
+.top_header .short_info .contact_info a {
+	color: var(--white);
+	font-weight: 500;
+}
+
+.top_header .short_info .contact_info a i {
+	margin-right: 5px;
+}
+
+
 
 .top_header .short_info .social {
 	margin-left: 30px;
@@ -324,6 +336,24 @@ p {
 	background-color: var(--black);
 }
 
+.main_menu .menu_right_option .language select {
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.main_menu .menu_right_option .login {
+	margin-left: 30px;
+}
+
+.main_menu .menu_right_option .login a {
+	background: var(--gradient);
+	color: var(--white);
+	padding: 8px 20px;
+	border-radius: 5px;
+}
+
 .sticky-menu {
 	position: fixed;
 	left: 0;
@@ -338,7 +368,7 @@ p {
 
 #header-fixed-height.active-height {
 	display: block;
-	height: 215px;
+	height: 115px;
 }
 
 .header.sticky-menu .top_header {
@@ -510,11 +540,12 @@ Banner part
 }
 
 @keyframes anim {
-	0%{
+	0% {
 		transform: translateY(-50%) rotate(10deg);
 		transform-origin: top;
 	}
-	100%{
+
+	100% {
 		transform: translateY(-50%) rotate(0deg);
 		transform-origin: top;
 	}
