@@ -155,6 +155,14 @@ p {
 	font-size: 26px;
 	font-weight: 600;
 	margin-bottom: 15px;
+	background: -webkit-linear-gradient(right, #F57170, #107add, #7B3A4E, #ce8f07);
+	background-size: cover;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation-duration: 6s;
+	animation-name: animationgradienttitle;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
 }
 
 .section_title .image {
@@ -164,6 +172,16 @@ p {
 
 .section_title .image img {
 	animation: anim2 2s infinite alternate;
+}
+
+@keyframes animationgradienttitle {
+	0% {
+		background-position: 0 1600px;
+	}
+
+	50% {
+		background-position: 1600px 0;
+	}
 }
 
 @keyframes anim2 {
