@@ -677,8 +677,8 @@ Banner part
 
 .package_slider .slick-dots li button {
 	font-size: 0;
-	width: 18px;
-	height: 18px;
+	width: 16px;
+	height: 16px;
 	border: 1px solid var(--primary);
 	background-color: transparent;
 	border-radius: 50%;
