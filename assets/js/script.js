@@ -1,6 +1,17 @@
 (function ($) {
 	"use strict";
 
+	// Preloader js start
+	function preloader() {
+		$('#preloader').delay(0).fadeOut();
+	};
+
+	$(window).on('load', function () {
+		preloader();
+		wowAnimation();
+	});
+
+	
 	// fixed menu js
 	$(window).on('scroll', function () {
 		var scroll = $(window).scrollTop();
