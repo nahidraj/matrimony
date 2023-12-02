@@ -317,6 +317,7 @@ p {
 .main_menu .menu ul li {
 	display: inline-block;
 	position: relative;
+	margin: 0 2px;
 }
 
 .main_menu .menu ul li a {
@@ -1055,43 +1056,29 @@ footer .footer_main .social_icon a:hover {
 
 /* bread crumb part start */
 
-.bread_crumb {
-	margin-top: 30px;
+.bread_crumb_area {
 	margin-bottom: 30px;
+	background: var(--gradient);
+	padding: 80px 0;
 }
 
-.bread_crumb .bread_crumb_main {
-	background-color: var(--background);
-	border-bottom: 2px solid var(--primary);
-	padding: 20px 20px;
+.bread_crumb_area .title {
+	font-size: 36px;
+	font-weight: 600;
+	color: var(--white);
 }
 
-.bread_crumb .bread_crumb_main ul li {
-	display: inline-block;
-	margin-right: 40px;
-	position: relative;
+/* all packages area start */
+.all_packages_area {
+	margin-bottom: -100px;
+	margin-top: 135px;
 }
 
-.bread_crumb .bread_crumb_main ul li::before {
-	width: 10px;
-	height: 10px;
-	border-top: 2px solid #7e7e7e;
-	border-left: 2px solid #7e7e7e;
-	content: "";
-	position: absolute;
-	top: 8px;
-	right: -25px;
-	transform: rotate(135deg);
+.all_packages_area .package_item {
+	margin-bottom: 100px;
 }
 
-.bread_crumb .bread_crumb_main ul li:last-child::before {
-	display: none;
-}
-
-.bread_crumb .bread_crumb_main ul li a {
-	color: var(--primary);
-}
-
+/* all packages area end */
 
 /* pagination area */
 
@@ -1128,3 +1115,163 @@ footer .footer_main .social_icon a:hover {
 	color: var(--white);
 	border-color: var(--white);
 }
+
+/* contact area start */
+.contact_form_area {
+	margin-top: 75px;
+}
+
+.contact_form_title .sub_title {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contact_form_title .title {
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.contact_form_area .short_description {
+	margin-bottom: 30px;
+}
+
+.contact_form_area .contact-form .input-group {
+	margin-bottom: 20px;
+}
+
+.contact_form_area .contact-form .input-group input {
+	width: 100%;
+	border-radius: 5px;
+	height: 60px;
+	border: 1px solid var(--border-colour);
+	padding: 0 30px;
+	transition: var(--transision);
+}
+
+.contact_form_area .contact-form .input-group input:focus {
+	border-color: var(--black);
+}
+
+.contact_form_area .contact-form .input-group textarea {
+	width: 100%;
+	border-radius: 5px;
+	height: 175px;
+	border: 1px solid var(--border-colour);
+	padding: 30px;
+	resize: none;
+	transition: var(--transision);
+}
+
+.contact_form_area .contact-form .input-group textarea:focus {
+	border-color: var(--black);
+}
+
+.contact_form_area .contact-form .submit-btn {
+	background: var(--gradient);
+	border-radius: 5px;
+	transition: var(--transision);
+	color: var(--white);
+	font-family: var(--link-font-family);
+	font-weight: 700;
+	border: 0;
+	padding: 18px 50px;
+}
+
+.contact_form_area .contact-form .submit-btn:hover {
+	transform: scale(1.1);
+}
+
+.contact_form_area .contact-information {
+	padding-left: 60px;
+}
+
+.contact_form_area .contact-information .contact-info-item+.contact-info-item {
+	margin-top: 60px;
+}
+
+.contact_form_area .contact-information .contact-info-item ul {
+	display: flex;
+}
+
+.contact_form_area .contact-information .contact-info-item ul .icon {
+	margin-right: 20px;
+	width: 80px;
+	height: 80px;
+	background-color: var(--background);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.contact_form_area .contact-information .contact-info-item ul .icon i {
+	font-size: 24px;
+	color: var(--primary);
+	margin-top: 3px;
+}
+
+.contact_form_area .contact-information .contact-info-item ul .title {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.contact_form_area .contact-information .contact-info-item a {
+	color: var(--black);
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.contact_form_area .contact-information .contact-info-item p {
+	color: var(--black);
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.contact_form_area .contact-information .contact-info-item a:hover {
+	color: var(--primary);
+}
+
+.contact-map-area {
+	padding-top: 80px;
+	margin-bottom: -80px;
+}
+
+.contact-map-area .contact-map {
+	height: 396px;
+}
+
+.contact-map-area .contact-map iframe {
+	height: 100%;
+	width: 100%;
+	mix-blend-mode: luminosity;
+}
+
+/* contact area end */
+
+/* about area start */
+.about_area {
+	margin: 75px 0;
+}
+
+.about_area .image {
+	overflow: hidden;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+
+.about_area .text .title {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.about_area .text p {
+	margin-top: 30px;
+	text-align: justify;
+}
+
+/* about area end */
+/* advance search area start */
+
+/* advance search area end */
