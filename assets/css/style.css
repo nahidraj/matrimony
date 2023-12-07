@@ -223,6 +223,7 @@ p {
 	width: 100%;
 	z-index: 999;
 	position: relative;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* top header part */
@@ -382,6 +383,23 @@ p {
 	color: var(--white);
 	padding: 8px 20px;
 	border-radius: 5px;
+}
+
+.main_menu .menu_right_option .login.user_after_login {
+	padding: 0;
+	border-radius: 0;
+	margin-left: 0;
+}
+
+.main_menu .menu_right_option .login a.usere_image {
+	background: transparent;
+	color: var(--black);
+}
+
+.main_menu .menu_right_option .login a.usere_image span {
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 5px;
 }
 
 .sticky-menu {
@@ -1378,3 +1396,344 @@ footer .footer_main .social_icon a:hover {
 		transform: translate(0, 0) rotateX(0) rotateY(360deg);
 	}
 }
+
+/* login area start */
+.login_area .login_box {
+	background-color: var(--white);
+	max-width: 450px;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 80px;
+	padding: 40px 30px;
+}
+
+.login_area .login_box .title {
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+
+.login_area .login_box form .input_groups {
+	margin-bottom: 20px;
+}
+
+.login_area .login_box form label {
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.login_area .login_box form .input_groups input {
+	width: 100%;
+	height: 50px;
+	background-color: transparent;
+	border: 1px solid var(--border-colour);
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 0 20px;
+	padding-right: 40px;
+	transition: var(--transision);
+}
+
+.login_area .login_box form input:focus {
+	border-color: var(--primary);
+}
+
+.login_area .login_box form .input_box i {
+	position: absolute;
+	top: 16px;
+	right: 20px;
+	cursor: pointer;
+	color: var(--primary);
+}
+
+.login_area .login_box .forget {
+	margin-bottom: 24px;
+}
+
+.login_area .login_box .forget a {
+	color: var(--primary);
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.login_area .login_box .forget a:hover {
+	text-decoration: underline;
+}
+
+.login_area .login_box .button_goups button {
+	background: var(--gradient);
+	color: var(--white);
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 60px;
+	border: 0;
+	padding: 14px 20px;
+	width: 100%;
+}
+
+.login_area .login_box .register {
+	margin-top: 30px;
+}
+
+.login_area .login_box .register p {
+	color: var(--black);
+	font-size: 15px;
+}
+
+.login_area .login_box .register a:hover {
+	text-decoration: underline;
+}
+
+.login_area .login_box .register a {
+	color: var(--primary);
+	font-size: 15px;
+	font-weight: 500;
+	margin-left: 10px;
+}
+
+.login_area .login_box .msg_success {
+	background-color: #D4EDDA;
+	margin-bottom: 24px;
+	padding: 14px;
+	border-radius: 5px;
+}
+
+.login_area .login_box .msg_success p {
+	font-size: 14px;
+	color: green;
+	font-weight: 500;
+	text-align: center;
+}
+
+.login_area .login_box .msg_error {
+	background-color: #F8D7DA;
+	margin-bottom: 24px;
+	padding: 14px;
+	border-radius: 5px;
+}
+
+.login_area .login_box .msg_error p {
+	font-size: 14px;
+	color: red;
+	font-weight: 500;
+	text-align: center;
+}
+
+.login_area .login_box .radio_groups {
+	margin-bottom: 15px;
+}
+
+.login_area .login_box .radio_groups .form-check {
+	margin-right: 24px;
+}
+
+.login_area .login_box .radio_groups .form-check label {
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+.login_area .login_box .radio_groups .form-check-input[type="radio"] {
+	border: 1px solid var(--border-colour) !important;
+	border-radius: 50% !important;
+}
+
+.login_area .login_box .radio_groups .form-check-input:checked {
+	background-color: var(--primary) !important;
+	border-color: var(--primary) !important;
+}
+
+/* login area end */
+
+/* dashboard area start */
+.dashboard_area {
+	background-color: #FAF1FC;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom: -80px;
+}
+
+.dashboard_area .left_sidebar {
+	width: 320px;
+	min-height: 800px;
+	background: var(--white);
+	box-shadow: 0 0px 10px rgba(25, 25, 25, 0.1);
+	padding: 30px 0;
+	border-radius: 5px;
+}
+
+.dashboard_area .left_sidebar .profile {
+	padding: 0 30px;
+	text-align: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	padding-bottom: 30px;
+}
+
+.dashboard_area .left_sidebar .profile .image {
+	position: relative;
+	width: 110px;
+	height: 110px;
+	background-color: var(--background);
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.dashboard_area .left_sidebar .profile .image img {
+	border-radius: 50%;
+}
+
+.dashboard_area .left_sidebar .profile .info {
+	margin-top: 15px;
+}
+
+.dashboard_area .left_sidebar .profile .info .name {
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.dashboard_area .left_sidebar .profile .info .biodata {
+	background: var(--gradient);
+	color: var(--white);
+	font-size: 14px;
+	font-weight: 600;
+	padding: 8px 24px;
+	border-radius: 50px;
+	margin-top: 15px;
+}
+
+.dashboard_area .left_sidebar .sidebar_menu {
+	padding: 30px 24px 0;
+}
+
+.dashboard_area .left_sidebar .sidebar_menu li {
+	margin-bottom: 10px;
+}
+
+.dashboard_area .left_sidebar .sidebar_menu a {
+	padding: 12px 46px;
+	position: relative;
+	font-size: 16px;
+	font-weight: 500;
+	width: 100%;
+	border-radius: 5px;
+	color: var(--black);
+}
+
+.dashboard_area .left_sidebar .sidebar_menu a:hover {
+	background: var(--gradient);
+	color: var(--white);
+}
+
+.dashboard_area .left_sidebar .sidebar_menu a i {
+	position: absolute;
+	top: 17px;
+	left: 20px;
+}
+
+.dashboard_area .left_sidebar .sidebar_menu .active a {
+	background: var(--gradient);
+	color: var(--white);
+}
+
+.dashboard_area .right_content {
+	padding-left: 24px;
+	flex-grow: 1;
+}
+
+.dashboard_area .right_content .info_box {
+	background-color: var(--white);
+	box-shadow: 0 0px 10px rgba(25, 25, 25, 0.1);
+	border-radius: 5px;
+	padding: 30px;
+	height: 100%;
+}
+
+.dashboard_area .right_content .info_box .title {
+	font-size: 17px;
+	color: var(--primary);
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	text-align: center;
+	border-bottom: 1px solid var(--primary);
+	border-radius: 80px;
+	padding-bottom: 14px;
+}
+
+.dashboard_area .right_content .info_box .profile_info {
+	margin-top: 40px;
+}
+
+.dashboard_area .right_content .info_box .number {
+	width: 140px;
+	height: 140px;
+	background: var(--gradient);
+	border: 7px solid var(--white);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 0px 32px -7px #b8b8b8;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.dashboard_area .right_content .info_box .number h2 {
+	font-size: 45px;
+	font-weight: 700;
+	position: relative;
+	left: 7px;
+	color: var(--white);
+}
+
+.dashboard_area .right_content .info_box .number h2 sub {
+	font-size: 24px;
+	font-weight: 700;
+	position: relative;
+	left: -8px;
+}
+
+.dashboard_area .right_content .info_box .profile_info h3 {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.dashboard_area .right_content .info_box .profile_info h3 {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.dashboard_area .right_content .info_box .plan_details {
+	margin-top: 40px;
+}
+
+.dashboard_area .right_content .info_box .plan_details .info{
+	margin-top: 40px;
+}
+
+.dashboard_area .right_content .info_box .plan_details .info a{
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--white);
+	background-color: var(--black);
+	padding: 9px 18px;
+	border-radius: 4px;
+	margin-top: 8px;
+}
+
+.dashboard_area .right_content .info_box .plan_details .info p{
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.dashboard_area .right_content .info_box .plan_details .info a:hover{
+	background-color: var(--primary);
+}
+
+/* dashboard area end */
