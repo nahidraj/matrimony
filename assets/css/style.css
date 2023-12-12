@@ -789,6 +789,39 @@ Banner part
 }
 
 /*=============================
+	how we works part
+===============================*/
+.how_we_main .works_item .icon {
+	width: 150px;
+	height: 150px;
+	background-color: var(--primary);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.how_we_main .works_item .text {
+	margin-top: 20px;
+	padding: 0 20px;
+}
+
+.works_label:nth-child(2) .icon {
+	background-color: #F84646;
+}
+
+.works_label:nth-child(3) .icon {
+	background-color: #3498DB;
+}
+
+.how_we_main .works_item .text .title {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+/*=============================
 	Web have part
 ===============================*/
 .we_have {
@@ -882,6 +915,46 @@ Gallery part
 .gallery .gallery_item .image:hover .icon {
 	opacity: 1;
 	transform: translate(-50%, -50%) scale(1);
+}
+
+/*=============================
+	Video gallery part
+===============================*/
+.video_gallery {
+	padding-top: 80px;
+}
+
+.video_gallery .video_item {
+	overflow: hidden;
+	border-radius: 10px;
+	position: relative;
+}
+
+.video_gallery .video_item .icon{
+	width: 80px;
+	height: 55px;
+	background-color: red;
+	border-radius: 8px;
+	text-align: center;
+	line-height:55px;
+	font-size: 20px;
+	color: var(--white);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.video_gallery .video_item .icon:hover{
+	background-color: var(--black);
+}
+
+.video_gallery .video_label:first-child {
+	transform: scaleY(0.9);
+}
+
+.video_gallery .video_label:last-child {
+	transform: scaleY(0.9);
 }
 
 /*=============================
@@ -1712,11 +1785,11 @@ footer .footer_main .social_icon a:hover {
 	margin-top: 40px;
 }
 
-.dashboard_area .right_content .info_box .plan_details .info{
+.dashboard_area .right_content .info_box .plan_details .info {
 	margin-top: 40px;
 }
 
-.dashboard_area .right_content .info_box .plan_details .info a{
+.dashboard_area .right_content .info_box .plan_details .info a {
 	font-size: 14px;
 	font-weight: 600;
 	color: var(--white);
@@ -1726,13 +1799,13 @@ footer .footer_main .social_icon a:hover {
 	margin-top: 8px;
 }
 
-.dashboard_area .right_content .info_box .plan_details .info p{
+.dashboard_area .right_content .info_box .plan_details .info p {
 	font-size: 15px;
 	font-weight: 500;
 	margin-bottom: 5px;
 }
 
-.dashboard_area .right_content .info_box .plan_details .info a:hover{
+.dashboard_area .right_content .info_box .plan_details .info a:hover {
 	background-color: var(--primary);
 }
 
