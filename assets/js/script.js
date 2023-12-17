@@ -8,7 +8,6 @@
 
 	$(window).on('load', function () {
 		preloader();
-		wowAnimation();
 	});
 
 	
