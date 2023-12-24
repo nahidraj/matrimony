@@ -521,6 +521,23 @@ Banner part
 	margin-bottom: 8px;
 }
 
+select {
+	height: 45px;
+	width: 100%;
+	border: 1px solid var(--border-colour);
+	border-radius: 5px;
+	padding: 0 12px;
+	font-size: 15px;
+	font-weight: 400;
+	background-color: transparent;
+	transition: var(--transision);
+}
+
+select:focus {
+	border-color: var(--black);
+}
+
+/* 
 .select2-container .select2-selection--single {
 	height: 45px;
 }
@@ -538,7 +555,7 @@ Banner part
 
 .select2.select2-container {
 	width: 100% !important;
-}
+} */
 
 .banner_area .banner_info .search_box .button_field {
 	margin-left: 24px;
@@ -1495,12 +1512,15 @@ footer .contact_number ul a:hover {
 .search_result_area .profile_list .list_item .image {
 	margin-right: 30px;
 	width: 240px;
-	height: 240px;
 	overflow: hidden;
 	flex: 0 0 auto;
 }
 
 .search_result_area .profile_list .list_item .info {
+	flex-grow: 1;
+}
+
+.search_result_area .profile_list .list_item .info .details{
 	flex-grow: 1;
 }
 
@@ -1510,7 +1530,7 @@ footer .contact_number ul a:hover {
 	font-weight: 600;
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 8px;
-	margin-bottom: 7px;
+	margin-bottom: 12px;
 }
 
 .search_result_area .profile_list .list_item .details table th {
@@ -1543,7 +1563,7 @@ footer .contact_number ul a:hover {
 }
 
 .search_result_area .profile_list .list_item .option {
-	width: 80px;
+	width: 55px;
 	height: 100%;
 	margin-top: 36px;
 }
