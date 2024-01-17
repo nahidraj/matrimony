@@ -126,253 +126,629 @@
     </section>
     <!-- breadcrumb area end -->
     <!-- search result area start -->
-    <section class="search_result_area">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="left_filter">
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      প্রাথমিক
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      
+    <section class="search_result_area" style="background: url(assets/img/bg-.jpeg);">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="left_filter">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Gender
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body d-flex">
+                        <div class="form-check me-5">
+                          <input class="form-check-input shadow-none" type="radio" name="flexRadioDefault"
+                            id="flexRadioDefault1">
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Male
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input shadow-none" type="radio" name="flexRadioDefault"
+                            id="flexRadioDefault2" checked>
+                          <label class="form-check-label" for="flexRadioDefault2">
+                            Female
+                          </label>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      ঠিকানা
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                      collapse plugin adds the appropriate classes that we use to style each element. These classes
-                      control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                      modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                      that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                      does limit overflow.
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Age
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="select_groups d-flex justify-content-between align-items-center">
+                          <div class="input_groups">
+                            <select>
+                              <option value="#">18</option>
+                              <option value="#">19</option>
+                              <option value="#">20</option>
+                              <option value="#">21</option>
+                              <option value="#">22</option>
+                              <option value="#">23</option>
+                            </select>
+                          </div>
+                          <h4>To</h4>
+                          <div class="input_groups">
+                            <select>
+                              <option value="#">55</option>
+                              <option value="#">56</option>
+                              <option value="#">57</option>
+                              <option value="#">58</option>
+                              <option value="#">59</option>
+                              <option value="#">60</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      শিক্ষা
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                      collapse plugin adds the appropriate classes that we use to style each element. These classes
-                      control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                      modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                      that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                      does limit overflow.
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Height
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="select_groups d-flex justify-content-between align-items-center">
+                          <div class="input_groups">
+                            <select>
+                              <option value="#">4ft 5in</option>
+                              <option value="#">4ft 5in</option>
+                              <option value="#">4ft 5in</option>
+                              <option value="#">4ft 5in</option>
+                              <option value="#">4ft 5in</option>
+                              <option value="#">4ft 5in</option>
+                            </select>
+                          </div>
+                          <h4>To</h4>
+                          <div class="input_groups">
+                            <select>
+                              <option value="#">6ft 5in</option>
+                              <option value="#">6ft 5in</option>
+                              <option value="#">6ft 5in</option>
+                              <option value="#">6ft 5in</option>
+                              <option value="#">6ft 5in</option>
+                              <option value="#">6ft 5in</option>
+                              <option value="#">6ft 5in</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      ব্যক্তিগত
-                    </button>
-                  </h2>
-                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                      collapse plugin adds the appropriate classes that we use to style each element. These classes
-                      control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                      modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                      that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                      does limit overflow.
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                        Religion
+                      </button>
+                    </h2>
+                    <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="input_groups">
+                          <select>
+                            <option value="#">Islam</option>
+                            <option value="#">Hindu</option>
+                            <option value="#">Christian</option>
+                          </select>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                      পেশা
-                    </button>
-                  </h2>
-                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                      collapse plugin adds the appropriate classes that we use to style each element. These classes
-                      control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                      modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                      that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                      does limit overflow.
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Home Division
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="check_boxes">
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              All
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Dhaka
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Chittagong
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Sylhet
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Khulna
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Barisal
+                            </label>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                      অন্যান্য
-                    </button>
-                  </h2>
-                  <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                      collapse plugin adds the appropriate classes that we use to style each element. These classes
-                      control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                      modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                      that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                      does limit overflow.
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Education
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="check_boxes">
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              All
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Doctorate / Phd / MPhil
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Masters
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Bachelors
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              FCPS / MD
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              MBBS / BDS
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Professional Area
+                      </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="check_boxes">
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              All
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Accounting & Banking
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Administration & HR
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Advertising & Media
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Agriculture
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Airline & Aviation
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                        Working Sector
+                      </button>
+                    </h2>
+                    <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="check_boxes">
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              All
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Private Company
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Government / Public Sector
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Defense / Civil Services
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Business / Self Employed
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Not Working
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                        Living Country
+                      </button>
+                    </h2>
+                    <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="check_boxes">
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              All
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Bangladesh
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Australia
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Canada
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              China
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Cyprus
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Denmark
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Finland
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                              India
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                        Search Profile Id
+                      </button>
+                    </h2>
+                    <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="input_groups">
+                          <form action="#">
+                            <input type="text">
+                            <button class="search_id_btn" type="submit"><i class="fa fa-search"></i></button>
+                          </form>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-9">
-            <div class="profile_list">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="list_item">
-                    <div class="image">
-                      <img src="assets/img/pr.png" alt="pr" class="img-fluid w-100">
-                    </div>
-                    <div class="info d-flex">
-                      <div class="details">
-                        <h4 class="user_id">
-                          <a class="user_a" href="#"><span>Biodata ID:</span> GBTC7023</a>
-                        </h4>
-                        <div class="table-responsive text-nowrap">
-                          <table class="table table-borderless mb-2">
-                            <tbody>
-                              <tr>
-                                <th style="width: 220px;">Full Name</th>
-                                <th style="width: 30px;">:</th>
-                                <td>Rabia Sultana</td>
-                              </tr>
-                              <tr>
-                                <th>Address</th>
-                                <th style="width: 30px;">:</th>
-                                <td>Dhaka, Gulshan</td>
-                              </tr>
-                              <tr>
-                                <th>Marital Status</th>
-                                <th style="width: 30px;">:</th>
-                                <td>Unmarried</td>
-                              </tr>
-                            </tbody>
-                          </table>
+            <div class="col-lg-9">
+              <div class="profile_list">
+                <div class="row g-4">
+                  <div class="col-lg-12">
+                    <div class="list_item">
+                      <div class="image visible_premium">
+                        <img src="assets/img/pr.png" alt="pr" class="img-fluid w-100">
+                        <div class="image_overlay text-center">
+                          <i class="fa fa-lock"></i>
+                          <h4 class="title">Visible to premium members</h4>
+                          <a href="package.html">View Package</a>
                         </div>
-                        <a class="view_viodata" href="#">View Viodata</a>
                       </div>
-                      <div class="option">
-                        <ul class="list-unstyled">
-                          <li><button class="option_list"><i class="fas fa-envelope"></i></button></li>
-                          <li><button class="option_list"><i class="fas fa-comments"></i></button></li>
-                          <li><button class="option_list"><i class="far fa-thumbs-up"></i></button></li>
-                          <li><button class="option_list"><i class="far fa-star"></i></button></li>
-                        </ul>
+                      <div class="info d-flex">
+                        <div class="details">
+                          <h4 class="user_id">
+                            <a class="user_a" href="#"><span>Biodata ID:</span> GBTC7023</a>
+                          </h4>
+                          <div class="table-responsive text-nowrap">
+                            <table class="table table-borderless mb-2">
+                              <tbody>
+                                <tr>
+                                  <th style="width: 220px;">Height</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>5ft 1in</td>
+                                </tr>
+                                <tr>
+                                  <th>Address</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>Dhaka, Gulshan</td>
+                                </tr>
+                                <tr>
+                                  <th>Marital Status</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>Unmarried</td>
+                                </tr>
+                                <tr>
+                                  <th>Age</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>32 Years</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <a class="view_viodata" href="#">View Viodata</a>
+                        </div>
+                        <div class="option">
+                          <ul class="list-unstyled">
+                            <li><button class="option_list"><i class="fas fa-comments"></i></button></li>
+                            <li><button class="option_list"><i class="far fa-thumbs-up"></i></button></li>
+                            <li><button class="option_list"><i class="far fa-star"></i></button></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="list_item">
+                      <div class="image">
+                        <img src="assets/img/no-photo-female.jpg" alt="pr" class="img-fluid w-100">
+                      </div>
+                      <div class="info d-flex">
+                        <div class="details">
+                          <h4 class="user_id">
+                            <a class="user_a" href="#"><span>Biodata ID:</span> GBTC7023</a>
+                          </h4>
+                          <div class="table-responsive text-nowrap">
+                            <table class="table table-borderless mb-2">
+                              <tbody>
+                                <tr>
+                                  <th style="width: 220px;">Height</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>5ft 1in</td>
+                                </tr>
+                                <tr>
+                                  <th>Address</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>Dhaka, Gulshan</td>
+                                </tr>
+                                <tr>
+                                  <th>Marital Status</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>Unmarried</td>
+                                </tr>
+                                <tr>
+                                  <th>Age</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>32 Years</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <a class="view_viodata" href="#">View Viodata</a>
+                        </div>
+                        <div class="option">
+                          <ul class="list-unstyled">
+                            <li><button class="option_list"><i class="fas fa-comments"></i></button></li>
+                            <li><button class="option_list"><i class="far fa-thumbs-up"></i></button></li>
+                            <li><button class="option_list"><i class="far fa-star"></i></button></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="list_item">
+                      <div class="image">
+                        <img src="assets/img/no-photo-female.jpg" alt="pr" class="img-fluid w-100">
+                      </div>
+                      <div class="info d-flex">
+                        <div class="details">
+                          <h4 class="user_id">
+                            <a class="user_a" href="#"><span>Biodata ID:</span> GBTC7023</a>
+                          </h4>
+                          <div class="table-responsive text-nowrap">
+                            <table class="table table-borderless mb-2">
+                              <tbody>
+                                <tr>
+                                  <th style="width: 220px;">Height</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>5ft 1in</td>
+                                </tr>
+                                <tr>
+                                  <th>Address</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>Dhaka, Gulshan</td>
+                                </tr>
+                                <tr>
+                                  <th>Marital Status</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>Unmarried</td>
+                                </tr>
+                                <tr>
+                                  <th>Age</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>32 Years</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <a class="view_viodata" href="#">View Viodata</a>
+                        </div>
+                        <div class="option">
+                          <ul class="list-unstyled">
+                            <li><button class="option_list"><i class="fas fa-comments"></i></button></li>
+                            <li><button class="option_list"><i class="far fa-thumbs-up"></i></button></li>
+                            <li><button class="option_list"><i class="far fa-star"></i></button></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="list_item">
+                      <div class="image">
+                        <img src="assets/img/no-photo-female.jpg" alt="pr" class="img-fluid w-100">
+                      </div>
+                      <div class="info d-flex">
+                        <div class="details">
+                          <h4 class="user_id">
+                            <a class="user_a" href="#"><span>Biodata ID:</span> GBTC7023</a>
+                          </h4>
+                          <div class="table-responsive text-nowrap">
+                            <table class="table table-borderless mb-2">
+                              <tbody>
+                                <tr>
+                                  <th style="width: 220px;">Height</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>5ft 1in</td>
+                                </tr>
+                                <tr>
+                                  <th>Address</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>Dhaka, Gulshan</td>
+                                </tr>
+                                <tr>
+                                  <th>Marital Status</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>Unmarried</td>
+                                </tr>
+                                <tr>
+                                  <th>Age</th>
+                                  <th style="width: 30px;">:</th>
+                                  <td>32 Years</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <a class="view_viodata" href="#">View Viodata</a>
+                        </div>
+                        <div class="option">
+                          <ul class="list-unstyled">
+                            <li><button class="option_list"><i class="fas fa-comments"></i></button></li>
+                            <li><button class="option_list"><i class="far fa-thumbs-up"></i></button></li>
+                            <li><button class="option_list"><i class="far fa-star"></i></button></li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-12">
-                  <div class="list_item">
-                    <div class="image">
-                      <img src="assets/img/pr.png" alt="pr" class="img-fluid w-100">
-                    </div>
-                    <div class="info d-flex">
-                      <div class="details">
-                        <h4 class="user_id">
-                          <a class="user_a" href="#"><span>Biodata ID:</span> GBTC7023</a>
-                        </h4>
-                        <div class="table-responsive text-nowrap">
-                          <table class="table table-borderless mb-2">
-                            <tbody>
-                              <tr>
-                                <th style="width: 220px;">Full Name</th>
-                                <th style="width: 30px;">:</th>
-                                <td>Rabia Sultana</td>
-                              </tr>
-                              <tr>
-                                <th>Address</th>
-                                <th style="width: 30px;">:</th>
-                                <td>Dhaka, Gulshan</td>
-                              </tr>
-                              <tr>
-                                <th>Marital Status</th>
-                                <th style="width: 30px;">:</th>
-                                <td>Unmarried</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <a class="view_viodata" href="#">View Viodata</a>
-                      </div>
-                      <div class="option">
-                        <ul class="list-unstyled">
-                          <li><button class="option_list"><i class="fas fa-envelope"></i></button></li>
-                          <li><button class="option_list"><i class="fas fa-comments"></i></button></li>
-                          <li><button class="option_list"><i class="far fa-thumbs-up"></i></button></li>
-                          <li><button class="option_list"><i class="far fa-star"></i></button></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <div class="list_item">
-                    <div class="image">
-                      <img src="assets/img/pr.png" alt="pr" class="img-fluid w-100">
-                    </div>
-                    <div class="info d-flex">
-                      <div class="details">
-                        <h4 class="user_id">
-                          <a class="user_a" href="#"><span>Biodata ID:</span> GBTC7023</a>
-                        </h4>
-                        <div class="table-responsive text-nowrap">
-                          <table class="table table-borderless mb-2">
-                            <tbody>
-                              <tr>
-                                <th style="width: 220px;">Full Name</th>
-                                <th style="width: 30px;">:</th>
-                                <td>Rabia Sultana</td>
-                              </tr>
-                              <tr>
-                                <th>Address</th>
-                                <th style="width: 30px;">:</th>
-                                <td>Dhaka, Gulshan</td>
-                              </tr>
-                              <tr>
-                                <th>Marital Status</th>
-                                <th style="width: 30px;">:</th>
-                                <td>Unmarried</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <a class="view_viodata" href="#">View Viodata</a>
-                      </div>
-                      <div class="option">
-                        <ul class="list-unstyled">
-                          <li><button class="option_list"><i class="fas fa-envelope"></i></button></li>
-                          <li><button class="option_list"><i class="fas fa-comments"></i></button></li>
-                          <li><button class="option_list"><i class="far fa-thumbs-up"></i></button></li>
-                          <li><button class="option_list"><i class="far fa-star"></i></button></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              </div>
+              <div class="pagination">
+                <ul class="list-unstyled">
+                  <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+                  <li><a href="#">01</a></li>
+                  <li><a href="#">02</a></li>
+                  <li><a href="#">03</a></li>
+                  <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                </ul>
               </div>
             </div>
           </div>
