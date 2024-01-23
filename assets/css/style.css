@@ -1572,16 +1572,18 @@ footer .contact_number ul a:hover {
 	position: relative;
 }
 
-.search_result_area .left_filter .input_groups input {
+.input_groups input {
 	width: 100%;
-	height: 44px;
+	height: 45px;
 	border-radius: 5px;
 	border: 1px solid var(--border-colour);
 	padding: 0 10px;
 	transition: var(--transision);
+	font-size: 15px;
+	font-weight: 400;
 }
 
-.search_result_area .left_filter .input_groups input:focus {
+.input_groups input:focus {
 	border-color: var(--black);
 }
 
@@ -2008,6 +2010,7 @@ footer .contact_number ul a:hover {
 	box-shadow: 0 0px 10px rgba(25, 25, 25, 0.1);
 	padding: 30px 0;
 	border-radius: 5px;
+	flex: 0 0 auto;
 }
 
 .dashboard_area .left_sidebar .profile {
@@ -2508,9 +2511,7 @@ footer .contact_number ul a:hover {
 
 /* support area end */
 /* favourite list area start */
-table{
-	background-color: var(--white);
-}
+
 table th {
 	font-weight: 500;
 	font-size: 15px;
@@ -2522,8 +2523,9 @@ table td {
 	vertical-align: middle;
 }
 
-table td .actions .cmn{
-	width: 35px;height: 35px;
+table td .actions .cmn {
+	width: 35px;
+	height: 35px;
 	border: 1px solid var(--border-colour);
 	border-radius: 50%;
 	text-align: center;
@@ -2533,14 +2535,14 @@ table td .actions .cmn{
 	font-size: 13px;
 }
 
-table td .actions .delete_btn{
+table td .actions .delete_btn {
 	background-color: #F05C72;
 	color: var(--white);
 	border-color: #F05C72;
 	margin-left: 5px;
 }
 
-table td .actions .view_biodata_btn{
+table td .actions .view_biodata_btn {
 	background-color: #1AB69D;
 	color: var(--white);
 	border-color: #1AB69D;
@@ -2548,4 +2550,129 @@ table td .actions .view_biodata_btn{
 }
 
 /* favourite list area end */
+/* edit biodata*/
+.edit_biodata {
+	display: flex;
+	padding-left: 100px;
+}
+
+.edit_biodata .left_tabs {
+	flex: 0 0 auto;
+	margin-right: 40px;
+	position: relative;
+	z-index: 9;
+}
+
+.edit_biodata .left_tabs::before {
+	position: absolute;
+	top: 8px;
+	right: 44px;
+	width: 1px;
+	height: 480px;
+	background-color: var(--black);
+	content: "";
+	z-index: -1;
+}
+
+.edit_biodata .left_tabs .nav-pills .nav-link {
+	text-align: right;
+	background-color: transparent;
+	color: var(--black);
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.edit_biodata .left_tabs .nav-pills .nav-link span {
+	width: 26px;
+	height: 26px;
+	background-color: var(--black);
+	border-radius: 50%;
+	text-align: center;
+	line-height: 26px;
+	margin-left: 15px;
+	color: var(--white);
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.edit_biodata .left_tabs .nav-pills .nav-link.active {
+	color: var(--primary);
+}
+
+.edit_biodata .left_tabs .nav-pills .nav-link.active span {
+	background-color: var(--primary);
+}
+
+.edit_biodata .right_info {
+	flex-grow: 1;
+}
+
+.edit_biodata .right_info .form_title {
+	font-size: 22px;
+	font-weight: 600;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+	margin-bottom: 24px;
+}
+
+.edit_biodata .right_info input {
+	background-color: var(--white);
+}
+
+.edit_biodata .right_info select {
+	background-color: var(--white);
+}
+
+.edit_biodata .right_info textarea {
+	background-color: var(--white);
+}
+
+.edit_biodata .right_info label {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 3px;
+}
+
+.edit_biodata .right_info .button_groups {
+	margin-top: 12px;
+}
+
+.edit_biodata .right_info .button_groups .action_btn {
+	font-size: 15px;
+	font-weight: 500;
+	color: var(--white);
+	border-radius: 50px;
+	background: var(--gradient);
+	padding: 12px 24px;
+	min-width: 140px;
+	text-align: center;
+}
+
+.edit_biodata .right_info .button_groups .action_btn.back {
+	background: #888888;
+}
+
+.edit_biodata .right_info .form_main fieldset {
+	border: 1px solid var(--border-colour);
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	padding-top: 32px;
+	margin-top: 40px;
+}
+
+.edit_biodata .right_info .form_main span {
+	font-size: 15px;
+	font-weight: 600;
+	position: absolute;
+	top: -20px;
+	left: 20px;
+	display: inline-block !important;
+	background: var(--gradient);
+	color: var(--white);
+	padding: 6px 20px;
+	border-radius: 50px;
+}
+
 /* dashboard area end */
