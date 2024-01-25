@@ -2029,6 +2029,27 @@ footer .contact_number ul a:hover {
 	margin: 0 auto;
 }
 
+.dashboard_area .left_sidebar .profile .image .upload_image {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.dashboard_area .left_sidebar .profile .image .upload_image i {
+	width: 35px;
+	height: 35px;
+	background-image: var(--gradient);
+	color: var(--white);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	cursor: pointer;
+	padding-left: 2px;
+}
+
+
 .dashboard_area .left_sidebar .profile .image img {
 	border-radius: 50%;
 }
@@ -2302,6 +2323,17 @@ footer .contact_number ul a:hover {
 	font-size: 22px;
 	font-weight: 600;
 	color: var(--primary);
+}
+
+.contact_info_btn {
+	background-image: var(--gradient);
+	color: var(--white);
+	font-size: 15px;
+	font-weight: 600;
+	border: 0;
+	border-radius: 5px;
+	padding: 12px 24px;
+	margin-bottom: 30px;
 }
 
 /* support area start */
