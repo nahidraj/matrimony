@@ -2727,7 +2727,7 @@ table td .actions .view_biodata_btn {
 }
 
 .table-head {
-	background-image: linear-gradient(to bottom, #2064fd, #5bb1ef) !important;
+	background-image: var(--gradient);
 	color: #fff;
 }
 
