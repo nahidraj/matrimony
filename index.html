@@ -36,7 +36,7 @@
     <div class="top_header">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-xl-8">
             <div class="scrollable_news">
               <div class="title">
                 <h4>শিরোনামঃ</h4>
@@ -53,7 +53,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 align-self-center">
+          <div class="col-xl-4 align-self-center d-none d-xl-block">
             <div class="short_info d-flex justify-content-end align-items-center">
               <div class="contact_info">
                 <ul class="list-unstyled">
@@ -72,6 +72,13 @@
       </div>
     </div>
     <!-- main menu part -->
+    <!-- mobile menu -->
+    <div class="mobile_menu d-block d-lg-none">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="logo"></a></div>
+        <button type="button" class="menu_bar"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
     <div class="main_menu">
       <div class="container">
         <div class="d-lg-flex justify-content-between align-items-center">
@@ -80,6 +87,8 @@
               <img src="assets/img/logo.png" alt="logo">
             </a>
           </div>
+          <!-- close mobile menu -->
+          <button class="mobile_menu_close d-block d-lg-none"><i class="fas fa-times"></i></button>
           <div class="menu">
             <ul class="list-unstyled">
               <li class="active">
@@ -135,10 +144,10 @@
             <div class="col-lg-11 mx-auto">
               <div class="search_box">
                 <form action="#">
-                  <div class="d-flex align-items-end">
+                  <div class="d-sm-flex align-items-end">
                     <div class="form_field">
                       <div class="row g-3">
-                        <div class="col-lg">
+                        <div class="col-xl col-lg-4 col-sm-6 col-md-4">
                           <div class="input_groups">
                             <label>আমি খুঁজছি</label>
                             <select>
@@ -153,7 +162,7 @@
                             </select>
                           </div>
                         </div>
-                        <div class="col-lg">
+                        <div class="col-xl col-lg-4 col-sm-6 col-md-4">
                           <div class="input_groups">
                             <label>বৈবাহিক অবস্থা</label>
                             <select>
@@ -168,7 +177,7 @@
                             </select>
                           </div>
                         </div>
-                        <div class="col-lg">
+                        <div class="col-xl col-lg-4 col-sm-6 col-md-4">
                           <div class="input_groups">
                             <label>বয়স</label>
                             <select>
@@ -183,7 +192,7 @@
                             </select>
                           </div>
                         </div>
-                        <div class="col-lg">
+                        <div class="col-xl col-lg-4 col-sm-6 col-md-4">
                           <div class="input_groups">
                             <label>ধর্ম</label>
                             <select>
@@ -198,7 +207,7 @@
                             </select>
                           </div>
                         </div>
-                        <div class="col-lg">
+                        <div class="col-xl col-lg-4 col-sm-6 col-md-4">
                           <div class="input_groups">
                             <label>বিভাগ</label>
                             <select>
@@ -403,8 +412,8 @@
         <div class="how_we_main">
           <div class="row">
             <div class="col-lg-11 mx-auto">
-              <div class="row">
-                <div class="col-lg-4 works_label">
+              <div class="row g-lg-4 g-5">
+                <div class="col-lg-4 col-md-6 mx-auto works_label">
                   <div class="works_item text-center">
                     <div class="icon">
                       <img src="assets/img/pro.png" alt="pro">
@@ -415,7 +424,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 works_label">
+                <div class="col-lg-4 col-md-6 mx-auto works_label">
                   <div class="works_item text-center">
                     <div class="icon">
                       <img src="assets/img/ser.png" alt="ser" width="90">
@@ -426,7 +435,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 works_label">
+                <div class="col-lg-4 col-md-6 mx-auto works_label">
                   <div class="works_item text-center">
                     <div class="icon">
                       <img src="assets/img/mes.png" alt="mes">
@@ -458,8 +467,8 @@
           </div>
         </div>
         <div class="we_have_main">
-          <div class="row">
-            <div class="col-lg-3">
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="we_have_item text-center">
                 <div class="image">
                   <img src="assets/img/we-have-image-1.png" alt="we-have-image-1">
@@ -470,7 +479,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="we_have_item text-center">
                 <div class="image">
                   <img src="assets/img/we-have-image-2.png" alt="we-have-image-2">
@@ -481,7 +490,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="we_have_item text-center">
                 <div class="image">
                   <img src="assets/img/we-have-image-3.png" alt="we-have-image-3">
@@ -492,7 +501,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="we_have_item text-center">
                 <div class="image">
                   <img src="assets/img/we-have-image-4.png" alt="we-have-image-4">
@@ -528,7 +537,7 @@
       </div>
       <div class="gallery_main">
         <div class="row g-2 parent-container">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="gallery_item">
               <div class="image">
                 <img src="assets/img/gal-1.png" alt="gal-1" class="img-fluid w-100">
@@ -540,7 +549,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="gallery_item">
               <div class="image">
                 <img src="assets/img/gal-4.png" alt="gal-4" class="img-fluid w-100">
@@ -552,7 +561,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="gallery_item">
               <div class="image">
                 <img src="assets/img/gal-5.png" alt="gal-5" class="img-fluid w-100">
@@ -564,7 +573,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="gallery_item">
               <div class="image">
                 <img src="assets/img/gal-8.png" alt="gal-8" class="img-fluid w-100">
@@ -576,7 +585,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="gallery_item">
               <div class="image">
                 <img src="assets/img/gal-1.png" alt="gal-1" class="img-fluid w-100">
@@ -588,7 +597,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="gallery_item">
               <div class="image">
                 <img src="assets/img/gal-4.png" alt="gal-4" class="img-fluid w-100">
@@ -600,7 +609,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="gallery_item">
               <div class="image">
                 <img src="assets/img/gal-5.png" alt="gal-5" class="img-fluid w-100">
@@ -612,7 +621,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="gallery_item">
               <div class="image">
                 <img src="assets/img/gal-8.png" alt="gal-8" class="img-fluid w-100">
@@ -642,8 +651,8 @@
           </div>
         </div>
         <div class="video_gallery_main">
-          <div class="row">
-            <div class="col-lg-4 video_label">
+          <div class="row g-4">
+            <div class="col-lg-4 col-sm-6 mx-auto video_label">
               <div class="video_item">
                 <img src="assets/img/event-1.png" alt="event-1" class="img-fluid w-100">
                 <a href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" class="vidplay">
@@ -653,7 +662,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-4 video_label">
+            <div class="col-lg-4 col-sm-6 mx-auto video_label">
               <div class="video_item">
                 <img src="assets/img/event-2.png" alt="event-2" class="img-fluid w-100">
                 <a href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" class="vidplay">
@@ -663,7 +672,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-4 video_label">
+            <div class="col-lg-4 col-sm-6 mx-auto video_label">
               <div class="video_item">
                 <img src="assets/img/event-3.png" alt="event-3" class="img-fluid w-100">
                 <a href="https://www.youtube.com/watch?v=PkkV1vLHUvQ" class="vidplay">
@@ -789,16 +798,18 @@
   <!-- footer part start -->
   <footer>
     <div class="footer_top_links">
-      <ul class="list-unstyled d-flex justify-content-center">
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms & Conditions</a></li>
-        <li><a href="#">Refund policy</a></li>
-      </ul>
+      <div class="container">
+        <ul class="list-unstyled -sm-flex justify-content-center">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Refund policy</a></li>
+        </ul>
+      </div>
     </div>
     <div class="container">
       <div class="footer_main text-center">
-        <div class="d-flex align-items-center justify-content-center">
-          <div class="contact_number d-flex align-items-center me-5">
+        <div class="d-lg-flex align-items-center justify-content-center">
+          <div class="contact_number d-flex justify-content-center justify-content-lg-start align-items-center me-5">
             <h4 class="ft_title">Contact us: </h4>
             <ul class="list-unstyled">
               <li><a href="tel:+8801319485475">+8801319485475</a></li>

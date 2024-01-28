@@ -10,7 +10,7 @@
 		preloader();
 	});
 
-	
+
 	// fixed menu js
 	$(window).on('scroll', function () {
 		var scroll = $(window).scrollTop();
@@ -24,6 +24,13 @@
 		}
 	});
 
+	$(".menu_bar").on("click",function(){
+		$(".main_menu").toggleClass("show_main_menu")
+	})
+	$(".mobile_menu_close").on("click",function(){
+		$(".main_menu").removeClass("show_main_menu")
+	})
+
 	// banner slider js
 	$(".banner_image_slider").slick({
 		infinite: true,
@@ -36,15 +43,17 @@
 		prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
 		nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
 		responsive: [{
-				breakpoint: 992,
+				breakpoint: 1200,
 				settings: {
 					slidesToShow: 1,
+					arrows: false,
 				},
 			},
 			{
-				breakpoint: 768,
+				breakpoint: 992,
 				settings: {
 					slidesToShow: 1,
+					arrows: false,
 				},
 			},
 		],
@@ -69,13 +78,19 @@
 		prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
 		nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
 		responsive: [{
-				breakpoint: 992,
+				breakpoint: 1200,
+				settings: {
+					slidesToShow: 3,
+				},
+			},
+			{
+				breakpoint: 768,
 				settings: {
 					slidesToShow: 2,
 				},
 			},
 			{
-				breakpoint: 768,
+				breakpoint: 576,
 				settings: {
 					slidesToShow: 1,
 				},

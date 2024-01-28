@@ -35,7 +35,7 @@
 body {
 	font-family: var(--body-font-family);
 	font-weight: var(--body-font-weight);
-	font-size: var(--body-font-sizebody-font-size);
+	font-size: var(--body-font-size);
 	line-height: var(--body-line-height);
 	color: var(--black);
 	overflow-x: hidden;
@@ -243,7 +243,6 @@ p {
 }
 
 .top_header .scrollable_news .title h4 {
-	background-color: var;
 	background-color: var(--primary);
 	color: var(--white);
 	height: 40px;
@@ -482,9 +481,14 @@ Banner part
 	position: relative;
 }
 
+.language {
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	padding-right: 10px;
+}
+
 .banner_area .banner_info {
 	width: 100%;
-	height: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -872,6 +876,7 @@ select:focus {
 	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.12);
 	background-color: var(--white);
 	border-radius: 5px;
+	height: 100%;
 }
 
 .we_have_item .text {
@@ -1340,6 +1345,7 @@ footer .contact_number ul a:hover {
 	justify-content: center;
 	align-items: center;
 	border-radius: 5px;
+	flex: 0 0 auto;
 }
 
 .contact_form_area .contact-information .contact-info-item ul .icon i {
@@ -1549,11 +1555,6 @@ footer .contact_number ul a:hover {
 	border-color: var(--primary);
 }
 
-.search_result_area .left_filter .select_groups {
-	select {
-		width: 100px;
-	}
-}
 
 .search_result_area .left_filter .check_boxes .form-check {
 	margin-bottom: 10px;
@@ -1711,6 +1712,7 @@ footer .contact_number ul a:hover {
 	width: 55px;
 	height: 100%;
 	margin-top: 36px;
+	margin-left: 20px;
 }
 
 .search_result_area .profile_list .list_item .option {

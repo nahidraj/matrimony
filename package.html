@@ -24,11 +24,11 @@
 </head>
 
 <body>
-    <!-- Preloader start-->
-    <div id="preloader">
-      <span class="loader"></span>
-    </div>
-    <!-- Preloader end-->
+  <!-- Preloader start-->
+  <div id="preloader">
+    <span class="loader"></span>
+  </div>
+  <!-- Preloader end-->
   <!-- header part start -->
   <div id="header-fixed-height"></div>
   <header class="header" id="sticky-header">
@@ -36,7 +36,7 @@
     <div class="top_header">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-xl-8">
             <div class="scrollable_news">
               <div class="title">
                 <h4>শিরোনামঃ</h4>
@@ -53,7 +53,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 align-self-center">
+          <div class="col-xl-4 align-self-center d-none d-xl-block">
             <div class="short_info d-flex justify-content-end align-items-center">
               <div class="contact_info">
                 <ul class="list-unstyled">
@@ -72,6 +72,13 @@
       </div>
     </div>
     <!-- main menu part -->
+    <!-- mobile menu -->
+    <div class="mobile_menu d-block d-lg-none">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo"><a href="index.html"><img src="assets/img/logo.png" alt="logo"></a></div>
+        <button type="button" class="menu_bar"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
     <div class="main_menu">
       <div class="container">
         <div class="d-lg-flex justify-content-between align-items-center">
@@ -80,16 +87,18 @@
               <img src="assets/img/logo.png" alt="logo">
             </a>
           </div>
+          <!-- close mobile menu -->
+          <button class="mobile_menu_close d-block d-lg-none"><i class="fas fa-times"></i></button>
           <div class="menu">
             <ul class="list-unstyled">
-              <li>
+              <li class="active">
                 <a href="index.html">Home </a>
               </li>
               <li>
                 <a href="about.html">About Us</a>
               </li>
               <li><a href="search.html">Search</a></li>
-              <li class="active"><a href="package.html">Package</a></li>
+              <li><a href="package.html">Package</a></li>
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
@@ -132,7 +141,7 @@
       <div class="container">
         <div class="package_slider_main">
           <div class="row justify-content-center">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-lg-4 col-sm-6">
               <div class="package_item">
                 <div class="image">
                   <img src="assets/img/pack-1.png" alt="pack-1" class="img-fluid w-100">
@@ -156,7 +165,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-lg-4 col-sm-6">
               <div class="package_item">
                 <div class="image">
                   <img src="assets/img/pack-2.png" alt="pack-2" class="img-fluid w-100">
@@ -180,7 +189,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-lg-4 col-sm-6">
               <div class="package_item">
                 <div class="image">
                   <img src="assets/img/pack-3.png" alt="pack-3" class="img-fluid w-100">
@@ -204,7 +213,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-lg-4 col-sm-6">
               <div class="package_item">
                 <div class="image">
                   <img src="assets/img/pack-1.png" alt="pack-1" class="img-fluid w-100">
@@ -228,7 +237,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-lg-4 col-sm-6">
               <div class="package_item">
                 <div class="image">
                   <img src="assets/img/pack-2.png" alt="pack-2" class="img-fluid w-100">
@@ -252,7 +261,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-lg-4 col-sm-6">
               <div class="package_item">
                 <div class="image">
                   <img src="assets/img/pack-2.png" alt="pack-2" class="img-fluid w-100">
@@ -276,7 +285,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-lg-4 col-sm-6">
               <div class="package_item">
                 <div class="image">
                   <img src="assets/img/pack-2.png" alt="pack-2" class="img-fluid w-100">
@@ -317,22 +326,23 @@
   <!-- footer part start -->
   <footer>
     <div class="footer_top_links">
-      <ul class="list-unstyled d-flex justify-content-center">
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms & Conditions</a></li>
-        <li><a href="#">Refund policy</a></li>
-      </ul>
+      <div class="container">
+        <ul class="list-unstyled d-sm-flex justify-content-center">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Refund policy</a></li>
+        </ul>
+      </div>
     </div>
     <div class="container">
       <div class="footer_main text-center">
-        <div class="d-flex align-items-center justify-content-center">
-          <div class="contact_number d-flex align-items-center me-5">
+        <div class="d-lg-flex align-items-center justify-content-center">
+          <div class="contact_number d-flex justify-content-center justify-content-lg-start align-items-center me-5">
             <h4 class="ft_title">Contact us: </h4>
             <ul class="list-unstyled">
               <li><a href="tel:+8801319485475">+8801319485475</a></li>
               <li><a href="tel:+8801998526797">+8801998526797</a></li>
             </ul>
-
           </div>
           <div class="social_icon">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
