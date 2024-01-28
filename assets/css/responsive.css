@@ -362,6 +362,14 @@
     height: 46px;
     line-height: 46px;
   }
+
+  .top_header .scrollable_news {
+    overflow: hidden;
+  }
+
+  .top_header .scrollable_news .news marquee {
+    line-height: 46px;
+  }
 }
 
 @media (max-width:575.98px) {
