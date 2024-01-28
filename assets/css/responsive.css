@@ -357,6 +357,11 @@
   .conversation__panel .simplebar__content .admin-msgbox {
     max-width: 100%;
   }
+
+  .top_header .scrollable_news .title h4 {
+    height: 46px;
+    line-height: 46px;
+  }
 }
 
 @media (max-width:575.98px) {
