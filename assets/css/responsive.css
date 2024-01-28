@@ -369,7 +369,7 @@
 
   .top_header .scrollable_news .news marquee {
     top: 8px;
-    line-height: 46px;
+    position: relative;
   }
 }
 
