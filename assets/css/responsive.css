@@ -366,6 +366,11 @@
   .top_header .scrollable_news {
     overflow: hidden;
   }
+
+  .top_header .scrollable_news .news marquee {
+    top: 4px;
+    line-height: 39px;
+  }
 }
 
 @media (max-width:575.98px) {
