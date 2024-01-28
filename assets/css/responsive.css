@@ -482,4 +482,13 @@
   .conversation__panel .simplebar__content {
     height: 380px;
   }
+
+  .how_we_main .works_item .icon {
+    width: 131px;
+    height: 131px;
+  }
+
+  .how_we_main .works_item .icon img {
+    width: 50px;
+  }
 }

@@ -951,6 +951,10 @@ Gallery part
 	position: relative;
 }
 
+.video_gallery .video_item img{
+	border-radius: 10px;
+}
+
 .video_gallery .video_item .icon {
 	width: 80px;
 	height: 55px;
