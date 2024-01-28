@@ -294,6 +294,10 @@
     font-size: 24px;
     margin-bottom: 16px;
   }
+
+  .biodata .left_info {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width:767.98px) {
@@ -459,5 +463,9 @@
 
   .attachment__panel .option {
     padding-left: 30px;
+  }
+
+  .conversation__panel .simplebar__content {
+    height: 380px;
   }
 }
