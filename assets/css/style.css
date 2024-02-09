@@ -1205,7 +1205,7 @@ footer .contact_number ul a:hover {
 	align-items: center;
 	color: var(--white);
 	font-size: 26px;
-	border-radius: 4px;
+	border-radius: 5px;
 	margin: 5px 0px;
 	cursor: pointer;
 	position: fixed;
